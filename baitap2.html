@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <p id="result"></p>
+    <script>
+        var sotienvay = parseFloat(+prompt("số tiền vay"));
+        var laisuat = parseFloat(+prompt("lãi suất"));
+        var sonam = parseFloat(+prompt("số năm"));
+        var sotienlai = sotienvay * laisuat * sonam ;
+        document.getElementById("result").innerHTML =  sotienlai;
+
+    </script>
+</body>
+</html>
